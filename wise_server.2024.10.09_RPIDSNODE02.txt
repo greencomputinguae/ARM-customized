@@ -1,0 +1,1098 @@
+2024-10-09 19:03:32.309 T11468 wise_server::main - Started!
+2024-10-09 19:03:32.309 T11468 wise_server::main - Syslog log level is 5
+2024-10-09 19:03:32.309 T11468 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:03:32.309 T11468 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:03:32.309 T11468 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:03:32.309 T11468 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:03:32.309 T11468 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:03:32.309 T11468 trace_regenv - 22 variables found in registry.
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:03:32.309 T11468 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:03:32.310 T11468 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:03:32.310 T11468 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:03:32.310 T11468 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:03:32.310 T11468 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:03:32.310 T11468 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:03:32.310 T11468 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:03:32.330 T11468 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:03:32.330 T11468 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:03:32.330 T11468 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:03:32.330 T11468 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:03:32.330 T11468 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:03:32.330 T11468 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:03:32.345 T11468 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:03:32.351 T11468 db_control::init - Using 60 internal database connections.
+2024-10-09 19:03:32.586 T11468 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:03:32.586 T11468 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:03:32.586 T11468 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:03:32.586 T11468 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:03:32.586 T11468 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:03:32.613 T11468 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:03:32.614 T11624 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:03:32.614 T11624 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:03:32.620 T11468 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:03:32.620 T11468 wise_server::main - Audit logging is enabled.
+2024-10-09 19:03:32.620 T11468 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:03:32.620 T11468 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:03:32.620 T11468 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:03:32.621 T11468 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:03:32.646 T11468 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:03:32.646 T11468 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:03:32.646 T11468 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:03:32.646 T11468 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:03:32.646 T11468 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:03:32.646 T11468 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:03:32.647 T11468 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:03:32.647 T11468 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:03:32.647 T11468 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:04:38.226 T13768 wise_server::main - Started!
+2024-10-09 19:04:38.227 T13768 wise_server::main - Syslog log level is 5
+2024-10-09 19:04:38.227 T13768 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:04:38.227 T13768 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:04:38.227 T13768 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:04:38.227 T13768 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:04:38.227 T13768 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:04:38.227 T13768 trace_regenv - 22 variables found in registry.
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:04:38.227 T13768 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:04:38.229 T13768 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:04:38.229 T13768 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:04:38.229 T13768 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:04:38.229 T13768 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:04:38.229 T13768 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:04:38.229 T13768 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:04:38.230 T13768 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:04:38.230 T13768 db_control::init - Using 60 internal database connections.
+2024-10-09 19:04:38.307 T13768 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:04:38.307 T13768 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:04:38.307 T13768 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:04:38.307 T13768 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:04:38.307 T13768 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:04:38.310 T13768 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:04:38.310 T12196 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:04:38.310 T12196 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:04:38.312 T13768 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:04:38.312 T13768 wise_server::main - Audit logging is enabled.
+2024-10-09 19:04:38.312 T13768 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:04:38.312 T13768 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:04:38.312 T13768 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:04:38.313 T13768 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:04:38.316 T13768 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:04:38.316 T13768 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:04:38.316 T13768 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:04:38.316 T13768 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:04:38.316 T13768 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:04:38.316 T13768 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:04:38.316 T13768 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:04:38.316 T13768 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:04:38.316 T13768 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:05:44.376 T12188 wise_server::main - Started!
+2024-10-09 19:05:44.376 T12188 wise_server::main - Syslog log level is 5
+2024-10-09 19:05:44.376 T12188 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:05:44.376 T12188 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:05:44.376 T12188 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:05:44.376 T12188 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:05:44.376 T12188 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:05:44.376 T12188 trace_regenv - 22 variables found in registry.
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:05:44.376 T12188 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:05:44.378 T12188 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:05:44.378 T12188 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:05:44.378 T12188 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:05:44.378 T12188 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:05:44.378 T12188 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:05:44.378 T12188 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:05:44.379 T12188 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:05:44.379 T12188 db_control::init - Using 60 internal database connections.
+2024-10-09 19:05:44.454 T12188 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:05:44.454 T12188 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:05:44.454 T12188 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:05:44.454 T12188 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:05:44.454 T12188 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:05:44.457 T12188 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:05:44.457 T14840 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:05:44.457 T14840 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:05:44.459 T12188 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:05:44.459 T12188 wise_server::main - Audit logging is enabled.
+2024-10-09 19:05:44.459 T12188 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:05:44.459 T12188 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:05:44.459 T12188 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:05:44.460 T12188 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:05:44.463 T12188 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:05:44.463 T12188 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:05:44.463 T12188 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:05:44.463 T12188 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:05:44.463 T12188 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:05:44.463 T12188 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:05:44.463 T12188 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:05:44.463 T12188 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:05:44.463 T12188 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:06:50.428 T09116 wise_server::main - Started!
+2024-10-09 19:06:50.428 T09116 wise_server::main - Syslog log level is 5
+2024-10-09 19:06:50.429 T09116 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:06:50.429 T09116 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:06:50.429 T09116 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:06:50.429 T09116 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:06:50.429 T09116 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:06:50.429 T09116 trace_regenv - 22 variables found in registry.
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:06:50.429 T09116 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:06:50.431 T09116 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:06:50.431 T09116 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:06:50.431 T09116 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:06:50.431 T09116 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:06:50.431 T09116 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:06:50.431 T09116 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:06:50.432 T09116 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:06:50.432 T09116 db_control::init - Using 60 internal database connections.
+2024-10-09 19:06:50.506 T09116 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:06:50.506 T09116 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:06:50.506 T09116 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:06:50.506 T09116 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:06:50.506 T09116 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:06:50.509 T09116 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:06:50.509 T14420 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:06:50.509 T14420 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:06:50.511 T09116 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:06:50.511 T09116 wise_server::main - Audit logging is enabled.
+2024-10-09 19:06:50.511 T09116 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:06:50.511 T09116 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:06:50.511 T09116 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:06:50.512 T09116 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:06:50.515 T09116 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:06:50.515 T09116 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:06:50.515 T09116 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:06:50.515 T09116 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:06:50.515 T09116 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:06:50.515 T09116 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:06:50.515 T09116 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:06:50.515 T09116 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:06:50.515 T09116 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:07:56.481 T11340 wise_server::main - Started!
+2024-10-09 19:07:56.481 T11340 wise_server::main - Syslog log level is 5
+2024-10-09 19:07:56.481 T11340 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:07:56.481 T11340 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:07:56.481 T11340 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:07:56.481 T11340 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:07:56.481 T11340 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:07:56.481 T11340 trace_regenv - 22 variables found in registry.
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:07:56.481 T11340 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:07:56.483 T11340 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:07:56.483 T11340 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:07:56.483 T11340 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:07:56.483 T11340 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:07:56.483 T11340 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:07:56.483 T11340 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:07:56.484 T11340 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:07:56.484 T11340 db_control::init - Using 60 internal database connections.
+2024-10-09 19:07:56.560 T11340 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:07:56.560 T11340 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:07:56.560 T11340 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:07:56.560 T11340 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:07:56.560 T11340 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:07:56.563 T11340 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:07:56.563 T09308 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:07:56.563 T09308 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:07:56.565 T11340 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:07:56.565 T11340 wise_server::main - Audit logging is enabled.
+2024-10-09 19:07:56.565 T11340 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:07:56.565 T11340 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:07:56.565 T11340 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:07:56.566 T11340 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:07:56.568 T11340 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:07:56.569 T11340 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:07:56.569 T11340 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:07:56.569 T11340 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:07:56.569 T11340 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:07:56.569 T11340 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:07:56.569 T11340 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:07:56.569 T11340 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:07:56.569 T11340 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:09:02.440 T10360 wise_server::main - Started!
+2024-10-09 19:09:02.440 T10360 wise_server::main - Syslog log level is 5
+2024-10-09 19:09:02.440 T10360 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:09:02.440 T10360 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:09:02.440 T10360 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:09:02.440 T10360 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:09:02.440 T10360 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:09:02.440 T10360 trace_regenv - 22 variables found in registry.
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:09:02.440 T10360 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:09:02.442 T10360 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:09:02.442 T10360 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:09:02.442 T10360 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:09:02.442 T10360 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:09:02.442 T10360 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:09:02.442 T10360 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:09:02.443 T10360 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:09:02.443 T10360 db_control::init - Using 60 internal database connections.
+2024-10-09 19:09:02.527 T10360 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:09:02.527 T10360 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:09:02.527 T10360 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:09:02.527 T10360 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:09:02.527 T10360 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:09:02.530 T10360 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:09:02.530 T14460 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:09:02.530 T14460 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:09:02.532 T10360 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:09:02.532 T10360 wise_server::main - Audit logging is enabled.
+2024-10-09 19:09:02.532 T10360 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:09:02.532 T10360 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:09:02.532 T10360 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:09:02.532 T10360 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:09:02.535 T10360 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:09:02.535 T10360 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:09:02.535 T10360 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:09:02.535 T10360 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:09:02.535 T10360 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:09:02.535 T10360 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:09:02.535 T10360 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:09:02.535 T10360 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:09:02.535 T10360 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:10:08.493 T12216 wise_server::main - Started!
+2024-10-09 19:10:08.493 T12216 wise_server::main - Syslog log level is 5
+2024-10-09 19:10:08.493 T12216 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:10:08.493 T12216 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:10:08.493 T12216 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:10:08.493 T12216 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:10:08.493 T12216 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:10:08.493 T12216 trace_regenv - 22 variables found in registry.
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:10:08.493 T12216 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:10:08.495 T12216 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:10:08.495 T12216 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:10:08.495 T12216 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:10:08.495 T12216 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:10:08.495 T12216 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:10:08.495 T12216 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:10:08.496 T12216 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:10:08.496 T12216 db_control::init - Using 60 internal database connections.
+2024-10-09 19:10:08.569 T12216 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:10:08.569 T12216 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:10:08.569 T12216 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:10:08.569 T12216 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:10:08.569 T12216 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:10:08.572 T12216 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:10:08.572 T14452 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:10:08.572 T14452 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:10:08.574 T12216 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:10:08.574 T12216 wise_server::main - Audit logging is enabled.
+2024-10-09 19:10:08.574 T12216 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:10:08.574 T12216 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:10:08.574 T12216 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:10:08.575 T12216 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:10:08.577 T12216 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:10:08.577 T12216 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:10:08.577 T12216 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:10:08.577 T12216 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:10:08.578 T12216 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:10:08.578 T12216 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:10:08.578 T12216 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:10:08.578 T12216 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:10:08.578 T12216 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:11:14.545 T16640 wise_server::main - Started!
+2024-10-09 19:11:14.545 T16640 wise_server::main - Syslog log level is 5
+2024-10-09 19:11:14.545 T16640 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:11:14.545 T16640 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:11:14.545 T16640 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:11:14.545 T16640 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:11:14.545 T16640 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:11:14.545 T16640 trace_regenv - 22 variables found in registry.
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:11:14.545 T16640 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:11:14.548 T16640 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:11:14.548 T16640 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:11:14.548 T16640 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:11:14.548 T16640 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:11:14.548 T16640 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:11:14.548 T16640 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:11:14.549 T16640 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:11:14.549 T16640 db_control::init - Using 60 internal database connections.
+2024-10-09 19:11:14.621 T16640 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:11:14.621 T16640 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:11:14.621 T16640 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:11:14.621 T16640 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:11:14.621 T16640 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:11:14.624 T16640 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:11:14.624 T16224 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:11:14.624 T16224 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:11:14.626 T16640 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:11:14.626 T16640 wise_server::main - Audit logging is enabled.
+2024-10-09 19:11:14.626 T16640 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:11:14.626 T16640 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:11:14.626 T16640 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:11:14.627 T16640 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:11:14.630 T16640 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:11:14.630 T16640 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:11:14.630 T16640 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:11:14.630 T16640 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:11:14.630 T16640 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:11:14.630 T16640 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:11:14.630 T16640 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:11:14.630 T16640 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:11:14.630 T16640 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:12:20.598 T12272 wise_server::main - Started!
+2024-10-09 19:12:20.598 T12272 wise_server::main - Syslog log level is 5
+2024-10-09 19:12:20.598 T12272 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:12:20.598 T12272 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:12:20.598 T12272 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:12:20.598 T12272 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:12:20.598 T12272 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:12:20.598 T12272 trace_regenv - 22 variables found in registry.
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:12:20.598 T12272 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:12:20.600 T12272 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:12:20.600 T12272 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:12:20.600 T12272 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:12:20.600 T12272 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:12:20.600 T12272 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:12:20.600 T12272 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:12:20.601 T12272 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:12:20.601 T12272 db_control::init - Using 60 internal database connections.
+2024-10-09 19:12:20.674 T12272 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:12:20.674 T12272 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:12:20.674 T12272 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:12:20.674 T12272 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:12:20.674 T12272 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:12:20.677 T12272 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:12:20.677 T14460 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:12:20.677 T14460 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:12:20.679 T12272 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:12:20.679 T12272 wise_server::main - Audit logging is enabled.
+2024-10-09 19:12:20.679 T12272 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:12:20.679 T12272 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:12:20.679 T12272 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:12:20.680 T12272 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:12:20.682 T12272 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:12:20.682 T12272 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:12:20.682 T12272 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:12:20.682 T12272 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:12:20.682 T12272 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:12:20.682 T12272 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:12:20.682 T12272 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:12:20.682 T12272 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:12:20.683 T12272 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:13:26.746 T15372 wise_server::main - Started!
+2024-10-09 19:13:26.746 T15372 wise_server::main - Syslog log level is 5
+2024-10-09 19:13:26.746 T15372 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:13:26.746 T15372 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:13:26.746 T15372 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:13:26.746 T15372 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:13:26.746 T15372 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:13:26.746 T15372 trace_regenv - 22 variables found in registry.
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:13:26.746 T15372 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:13:26.749 T15372 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:13:26.749 T15372 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:13:26.749 T15372 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:13:26.749 T15372 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:13:26.749 T15372 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:13:26.749 T15372 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:13:26.750 T15372 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:13:26.750 T15372 db_control::init - Using 60 internal database connections.
+2024-10-09 19:13:26.828 T15372 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:13:26.828 T15372 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:13:26.828 T15372 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:13:26.828 T15372 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:13:26.828 T15372 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:13:26.831 T15372 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:13:26.831 T10896 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:13:26.831 T10896 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:13:26.833 T15372 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:13:26.833 T15372 wise_server::main - Audit logging is enabled.
+2024-10-09 19:13:26.833 T15372 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:13:26.833 T15372 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:13:26.833 T15372 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:13:26.834 T15372 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:13:26.837 T15372 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:13:26.837 T15372 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:13:26.837 T15372 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:13:26.837 T15372 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:13:26.837 T15372 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:13:26.837 T15372 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:13:26.837 T15372 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:13:26.837 T15372 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:13:26.837 T15372 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:26:01.785 T14224 wise_server::main - Started!
+2024-10-09 19:26:01.785 T14224 wise_server::main - Syslog log level is 5
+2024-10-09 19:26:01.785 T14224 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:26:01.785 T14224 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:26:01.785 T14224 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:26:01.785 T14224 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:26:01.785 T14224 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:26:01.785 T14224 trace_regenv - 22 variables found in registry.
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:26:01.785 T14224 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:26:01.788 T14224 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:26:01.788 T14224 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:26:01.788 T14224 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:26:01.788 T14224 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:26:01.788 T14224 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:26:01.788 T14224 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:26:01.789 T14224 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:26:01.789 T14224 db_control::init - Using 60 internal database connections.
+2024-10-09 19:26:01.941 T14224 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:26:01.941 T14224 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:26:01.941 T14224 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:26:01.941 T14224 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:26:01.941 T14224 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:26:01.962 T14224 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:26:01.962 T16700 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:26:01.962 T16700 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:26:01.968 T14224 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:26:01.968 T14224 wise_server::main - Audit logging is enabled.
+2024-10-09 19:26:01.968 T14224 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:26:01.968 T14224 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:26:01.968 T14224 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:26:01.969 T14224 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:26:01.983 T14224 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:26:01.983 T14224 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:26:01.983 T14224 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:26:01.983 T14224 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:26:01.983 T14224 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:26:01.983 T14224 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:26:01.983 T14224 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:26:01.983 T14224 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:26:01.984 T14224 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:27:07.935 T18060 wise_server::main - Started!
+2024-10-09 19:27:07.935 T18060 wise_server::main - Syslog log level is 5
+2024-10-09 19:27:07.935 T18060 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:27:07.935 T18060 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:27:07.935 T18060 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:27:07.935 T18060 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:27:07.935 T18060 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:27:07.935 T18060 trace_regenv - 22 variables found in registry.
+2024-10-09 19:27:07.935 T18060 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:27:07.935 T18060 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:27:07.935 T18060 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:27:07.935 T18060 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:27:07.935 T18060 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:27:07.936 T18060 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:27:07.938 T18060 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:27:07.938 T18060 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:27:07.938 T18060 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:27:07.938 T18060 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:27:07.938 T18060 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:27:07.938 T18060 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:27:07.939 T18060 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:27:07.939 T18060 db_control::init - Using 60 internal database connections.
+2024-10-09 19:27:08.015 T18060 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:27:08.015 T18060 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:27:08.015 T18060 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:27:08.015 T18060 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:27:08.015 T18060 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:27:08.018 T18060 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:27:08.018 T17840 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:27:08.019 T17840 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:27:08.020 T18060 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:27:08.020 T18060 wise_server::main - Audit logging is enabled.
+2024-10-09 19:27:08.021 T18060 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:27:08.021 T18060 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:27:08.021 T18060 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:27:08.021 T18060 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:27:08.024 T18060 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:27:08.024 T18060 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:27:08.024 T18060 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:27:08.024 T18060 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:27:08.024 T18060 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:27:08.024 T18060 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:27:08.024 T18060 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:27:08.024 T18060 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:27:08.024 T18060 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:28:13.893 T17500 wise_server::main - Started!
+2024-10-09 19:28:13.894 T17500 wise_server::main - Syslog log level is 5
+2024-10-09 19:28:13.894 T17500 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:28:13.894 T17500 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:28:13.894 T17500 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:28:13.894 T17500 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:28:13.894 T17500 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:28:13.894 T17500 trace_regenv - 22 variables found in registry.
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:28:13.894 T17500 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:28:13.896 T17500 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:28:13.896 T17500 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:28:13.896 T17500 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:28:13.896 T17500 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:28:13.896 T17500 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:28:13.896 T17500 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:28:13.897 T17500 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:28:13.897 T17500 db_control::init - Using 60 internal database connections.
+2024-10-09 19:28:13.974 T17500 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:28:13.974 T17500 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:28:13.974 T17500 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:28:13.974 T17500 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:28:13.974 T17500 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:28:13.977 T17500 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:28:13.977 T15892 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:28:13.977 T15892 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:28:13.979 T17500 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:28:13.979 T17500 wise_server::main - Audit logging is enabled.
+2024-10-09 19:28:13.979 T17500 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:28:13.979 T17500 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:28:13.979 T17500 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:28:13.980 T17500 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:28:13.983 T17500 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:28:13.983 T17500 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:28:13.983 T17500 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:28:13.983 T17500 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:28:13.983 T17500 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:28:13.983 T17500 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:28:13.983 T17500 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:28:13.983 T17500 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:28:13.983 T17500 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:29:20.003 T11060 wise_server::main - Started!
+2024-10-09 19:29:20.003 T11060 wise_server::main - Syslog log level is 5
+2024-10-09 19:29:20.003 T11060 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:29:20.003 T11060 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:29:20.003 T11060 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:29:20.003 T11060 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:29:20.003 T11060 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:29:20.003 T11060 trace_regenv - 22 variables found in registry.
+2024-10-09 19:29:20.003 T11060 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:29:20.003 T11060 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:29:20.003 T11060 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:29:20.003 T11060 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:29:20.003 T11060 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:29:20.003 T11060 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:29:20.003 T11060 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:29:20.003 T11060 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:29:20.004 T11060 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:29:20.006 T11060 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:29:20.006 T11060 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:29:20.006 T11060 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:29:20.006 T11060 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:29:20.006 T11060 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:29:20.006 T11060 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:29:20.007 T11060 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:29:20.007 T11060 db_control::init - Using 60 internal database connections.
+2024-10-09 19:29:20.098 T11060 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:29:20.098 T11060 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:29:20.098 T11060 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:29:20.098 T11060 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:29:20.098 T11060 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:29:20.101 T11060 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:29:20.102 T17664 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:29:20.102 T17664 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:29:20.104 T11060 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:29:20.105 T11060 wise_server::main - Audit logging is enabled.
+2024-10-09 19:29:20.105 T11060 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:29:20.105 T11060 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:29:20.105 T11060 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:29:20.105 T11060 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:29:20.109 T11060 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:29:20.109 T11060 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:29:20.109 T11060 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:29:20.109 T11060 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:29:20.109 T11060 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:29:20.109 T11060 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:29:20.109 T11060 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:29:20.109 T11060 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:29:20.109 T11060 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:30:26.054 T15848 wise_server::main - Started!
+2024-10-09 19:30:26.055 T15848 wise_server::main - Syslog log level is 5
+2024-10-09 19:30:26.055 T15848 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:30:26.055 T15848 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:30:26.055 T15848 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:30:26.055 T15848 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:30:26.055 T15848 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:30:26.055 T15848 trace_regenv - 22 variables found in registry.
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:30:26.055 T15848 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:30:26.057 T15848 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:30:26.057 T15848 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:30:26.057 T15848 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:30:26.057 T15848 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:30:26.057 T15848 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:30:26.057 T15848 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:30:26.058 T15848 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:30:26.058 T15848 db_control::init - Using 60 internal database connections.
+2024-10-09 19:30:26.133 T15848 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:30:26.133 T15848 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:30:26.133 T15848 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:30:26.133 T15848 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:30:26.133 T15848 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:30:26.136 T15848 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:30:26.136 T09532 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:30:26.136 T09532 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:30:26.138 T15848 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:30:26.138 T15848 wise_server::main - Audit logging is enabled.
+2024-10-09 19:30:26.138 T15848 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:30:26.138 T15848 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:30:26.138 T15848 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:30:26.138 T15848 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:30:26.141 T15848 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:30:26.141 T15848 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:30:26.141 T15848 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:30:26.141 T15848 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:30:26.141 T15848 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:30:26.141 T15848 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:30:26.142 T15848 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:30:26.142 T15848 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:30:26.142 T15848 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:31:32.106 T08464 wise_server::main - Started!
+2024-10-09 19:31:32.106 T08464 wise_server::main - Syslog log level is 5
+2024-10-09 19:31:32.106 T08464 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:31:32.106 T08464 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:31:32.106 T08464 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:31:32.106 T08464 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:31:32.106 T08464 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:31:32.106 T08464 trace_regenv - 22 variables found in registry.
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:31:32.106 T08464 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:31:32.109 T08464 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:31:32.109 T08464 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:31:32.109 T08464 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:31:32.109 T08464 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:31:32.109 T08464 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:31:32.109 T08464 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:31:32.110 T08464 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:31:32.110 T08464 db_control::init - Using 60 internal database connections.
+2024-10-09 19:31:32.187 T08464 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:31:32.187 T08464 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:31:32.187 T08464 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:31:32.187 T08464 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:31:32.187 T08464 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:31:32.191 T08464 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:31:32.191 T14356 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:31:32.191 T14356 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:31:32.193 T08464 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:31:32.193 T08464 wise_server::main - Audit logging is enabled.
+2024-10-09 19:31:32.193 T08464 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:31:32.193 T08464 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:31:32.193 T08464 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:31:32.194 T08464 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:31:32.196 T08464 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:31:32.197 T08464 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:31:32.197 T08464 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:31:32.197 T08464 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:31:32.197 T08464 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:31:32.197 T08464 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:31:32.197 T08464 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:31:32.197 T08464 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:31:32.197 T08464 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:32:38.253 T17072 wise_server::main - Started!
+2024-10-09 19:32:38.253 T17072 wise_server::main - Syslog log level is 5
+2024-10-09 19:32:38.253 T17072 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:32:38.253 T17072 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:32:38.253 T17072 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:32:38.253 T17072 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:32:38.253 T17072 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:32:38.253 T17072 trace_regenv - 22 variables found in registry.
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:32:38.253 T17072 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:32:38.256 T17072 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:32:38.256 T17072 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:32:38.256 T17072 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:32:38.256 T17072 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:32:38.256 T17072 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:32:38.256 T17072 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:32:38.257 T17072 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:32:38.258 T17072 db_control::init - Using 60 internal database connections.
+2024-10-09 19:32:38.332 T17072 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:32:38.332 T17072 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:32:38.332 T17072 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:32:38.332 T17072 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:32:38.333 T17072 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:32:38.336 T17072 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:32:38.336 T18356 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:32:38.336 T18356 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:32:38.338 T17072 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:32:38.338 T17072 wise_server::main - Audit logging is enabled.
+2024-10-09 19:32:38.338 T17072 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:32:38.338 T17072 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:32:38.338 T17072 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:32:38.338 T17072 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:32:38.341 T17072 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:32:38.342 T17072 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:32:38.342 T17072 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:32:38.342 T17072 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:32:38.342 T17072 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:32:38.342 T17072 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:32:38.342 T17072 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:32:38.342 T17072 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:32:38.342 T17072 wise_server::main - ERROR - No valid WISE license found. Exiting.
+2024-10-09 19:33:44.307 T01736 wise_server::main - Started!
+2024-10-09 19:33:44.307 T01736 wise_server::main - Syslog log level is 5
+2024-10-09 19:33:44.307 T01736 wise_server::main - ERROR - SI_ERROR is enabled if you can see this
+2024-10-09 19:33:44.307 T01736 wise_server::main - WARNING - SI_WARNING is enabled if you can see this
+2024-10-09 19:33:44.307 T01736 wise_server::main - SI_MESSAGE is enabled if you can see this
+2024-10-09 19:33:44.307 T01736 wise_server::main - WISE version 24.2.0 (24.2.0.1220)
+2024-10-09 19:33:44.307 T01736 wise_server::main - Using database GPIDSWISEDB01\WISE
+2024-10-09 19:33:44.307 T01736 trace_regenv - 22 variables found in registry.
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_PORT=7800
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_DB_CONNECTIONS=60
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_TIMEOUT=120
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_SECURITY_LEVEL=1
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: SYSLOG_DATE_FORMAT=
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: SYSLOG_BACKUP_COPIES=31
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_SEND_CONFIG=I:\WISE_Config\wise_send.def
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: SECTRA=D:\Program Files (x86)\Sectra\WISE\
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_HOST=GPIDSWISEDB01
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_DB_HOST=GPIDSWISEDB01
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_DB_NAME=WISE
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_DB_INSTANCE=WISE
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: SI_CONFIG_DIR=I:\WISE_Config
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: DEF_BASE_FOLDER=default
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_ARCHIVE_CONFIG=I:\WISE_Config\wise_archive.def
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_RIS_CONFIG=I:\WISE_Config\wise_ris.def
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: IS_QUEUE_SAVEDIR=I:\WISE_Config\is_queues
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: QUERY_TMP_DIR=I:\WISE_Config\ris_repeat
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: SI_DISABLE_HOSTNAME_LOOKUP=1
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: SI_VERSION=24.2.0.1220
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_DB_PROVIDER=MSOLEDBSQL
+2024-10-09 19:33:44.307 T01736 trace_regenv - WISE: WISE_DB_LISTENER=
+2024-10-09 19:33:44.309 T01736 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MIN
+2024-10-09 19:33:44.309 T01736 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_MAX
+2024-10-09 19:33:44.309 T01736 wrpc_server::get_server_env - Registering server parameter WRPC_MESSAGE_HANDLERS_WAIT_THRESHOLD
+2024-10-09 19:33:44.309 T01736 wrpc_server::init - Using min 6 RPC message handling threads
+2024-10-09 19:33:44.309 T01736 wrpc_server::init - Using max 100 RPC message handling threads
+2024-10-09 19:33:44.309 T01736 wrpc_server::init - Will add handlers if wait time exceeds 0.05 s
+2024-10-09 19:33:44.311 T01736 wrpc_server::get_server_env - Registering server parameter WISE_DB_CONNECTIONS=60
+2024-10-09 19:33:44.311 T01736 db_control::init - Using 60 internal database connections.
+2024-10-09 19:33:44.383 T01736 wrpc_server::get_server_env - Registering server parameter WISE_DISABLE_ACCNO_UPDATE
+2024-10-09 19:33:44.383 T01736 wrpc_server::get_server_env - Registering server parameter SI_VERSION=24.2.0.1220
+2024-10-09 19:33:44.383 T01736 wrpc_server::get_server_env - Registering server parameter WISE_REPORT_VERSION_CONTROL
+2024-10-09 19:33:44.383 T01736 wrpc_server::get_server_env - Registering server parameter WISE_MULTI_INSERT_ENABLED
+2024-10-09 19:33:44.383 T01736 wrpc_server::get_server_env - Registering server parameter WISE_QUERY_DATE_HINT
+2024-10-09 19:33:44.386 T01736 wise_server::main - Allowing 8192 number of connections.
+2024-10-09 19:33:44.386 T17592 ris_if_mgr::add_failed_queries_from_disk_to_queue - 0 failed messages from previous WISE session found.
+2024-10-09 19:33:44.386 T17592 ris_if_mgr::init_hl7_queue_s - HL7 queues initialization finished.
+2024-10-09 19:33:44.388 T01736 wise_server::main - PHI filter is disabled (operations log).
+2024-10-09 19:33:44.388 T01736 wise_server::main - Audit logging is enabled.
+2024-10-09 19:33:44.388 T01736 Arr_client_manager::Arr_client_manager - Using audit log queue size limit 50000
+2024-10-09 19:33:44.388 T01736 Arr_client_manager::get_timeout - Using audit log client tcp timeout 10 seconds
+2024-10-09 19:33:44.388 T01736 Arr_client_manager::Arr_client_manager - Using 5 audit log client threads
+2024-10-09 19:33:44.389 T01736 Audit_logger::log_arr_config - Audit logging will be performed to Audit Record Repository 'GPIDSARR01.zkh.local' port 514, with TCP, format rfc5424, priority 6 and facility 10. 
+2024-10-09 19:33:44.392 T01736 wrpc_server::check_wise_license - Found 2 candidate wise licenses in database.
+2024-10-09 19:33:44.392 T01736 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:33:44.392 T01736 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-590EFE41D936B8D36EAFA2E040E21594AA not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:33:44.392 T01736 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID ETH-98F2B32C90E8: LICENSE_ERROR
+2024-10-09 19:33:44.392 T01736 wrpc_server::check_wise_license - License WISE-0-1018-HW-1-24-2000-20330803-ONE0059-ONE0059-490F05F3FE536CDCF93A3A3C8E842E9A6C not valid with hardware ID SID-7C6D0882CE7E5CCAB51D52D0: LICENSE_ERROR
+2024-10-09 19:33:44.392 T01736 wrpc_server::check_wise_license - No valid WISE license found in database!
+2024-10-09 19:33:44.392 T01736 wrpc_server::check_wise_license - Failed to read license file!
+2024-10-09 19:33:44.392 T01736 wrpc_server::check_wise_license - Found 0 licenses in license file.
+2024-10-09 19:33:44.392 T01736 wise_server::main - ERROR - No valid WISE license found. Exiting.
